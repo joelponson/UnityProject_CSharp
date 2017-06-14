@@ -1,9 +1,9 @@
 # =============== #
 # Unity folders #
 # =============== #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
+Library/
+Temp/
+Obj/
 3rdParty/
 Builds/
 
