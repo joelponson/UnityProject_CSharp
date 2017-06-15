@@ -3,9 +3,8 @@
 # =============== #
 Library/
 Temp/
-Obj/
-3rdParty/
 Builds/
+.vs/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
