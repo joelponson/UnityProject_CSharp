@@ -67,6 +67,7 @@ public class PlayerMotor : MonoBehaviour {
         }
     }
 
+    //Perform rotation based on camera rotaion variable
     void PerformRotation()
     {
         rb.MoveRotation(rb.rotation * Quaternion.Euler(rotation));
