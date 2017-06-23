@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour {
 
     void Update()
     {
+        if (PauseMenu.IsOn)
+            return;
 
         //Setting target position for spring. Make physics act right when it come to applying gravity when flying over object.
         RaycastHit _hit;
