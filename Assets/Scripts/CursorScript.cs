@@ -13,10 +13,12 @@ public class CursorScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (PauseMenu.IsOn)
         {
-            cursorHide = false; UpdateCursor();
-        } else if (Input.GetMouseButtonDown(0))
+            cursorHide = false;
+            UpdateCursor();
+
+        } else
         {
             cursorHide = true;
             UpdateCursor();
